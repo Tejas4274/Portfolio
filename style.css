@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
 * {
   margin: 0;
@@ -537,6 +537,7 @@ section {
   align-items: center;
   padding: 50px;
   width: fit-content;
+  
 }
 
 .card {
@@ -848,6 +849,8 @@ form textarea {
   }
 }
 
+
+
 @media (max-width: 1065px) {
   .home-content h1 {
     font-size: 40px;
@@ -858,11 +861,18 @@ form textarea {
     margin-left: 1%;
   }
   .contact {
-    grid-template-columns: repeat(2, 1fr);
-    padding-left: 20px;
+    grid-template-columns: 1fr;
+    padding-left: 15px;
+    margin-top: 80px;
   }
   .contact-text h2 {
-    font-size: 70px;
+    font-size: 60px;
+  }
+  .contact-text h4 {
+    font-size: 18px;
+  }
+  .contact-text p {
+    font-size: 18px;
   }
 }
 
@@ -899,27 +909,21 @@ form textarea {
   .sub-title {
     font-size: 50px;
   }
-
-  .contact {
-    grid-template-columns: 1fr;
-    padding-left: 15px;
+   .contact {
+    padding-left: 10px;
+    margin-top: 60px;
   }
   .contact-text h2 {
-    font-size: 60px;
+    font-size: 50px;
   }
   .contact-text h4 {
-    font-size: 18px;
+    font-size: 16px;
   }
   .contact-text p {
-    font-size: 18px;
-  }
-  .contact-form form input,
-  form textarea {
-    width: 100%;
-  }
-  .contact-form form .send {
-    padding: 12px 50px;
     font-size: 16px;
+  }
+  .contact-list i {
+    font-size: 18px;
   }
 }
 
@@ -961,25 +965,32 @@ form textarea {
     padding: 60px;
   }
   .contact {
-    grid-template-columns: 1fr;
-    padding-left: 10px;
-    margin-top: 100px;
+    padding-left: 5px;
+    margin-top: 40px;
   }
   .contact-text h2 {
-    font-size: 50px;
+    font-size: 40px;
   }
   .contact-text h4 {
-    font-size: 16px;
+    font-size: 14px;
   }
   .contact-text p {
+    font-size: 14px;
+  }
+  .contact-list i {
     font-size: 16px;
+  }
+  .contact-form form input,
+  .contact-form form textarea {
+    width: 100%;
+    padding: 14px;
   }
   .contact-form textarea {
     height: 180px;
   }
   .contact-form form .send {
-    padding: 10px 40px;
-    font-size: 14px;
+    padding: 12px 50px;
+    font-size: 16px;
   }
 }
 
@@ -1037,20 +1048,34 @@ form textarea {
     width: 100%;
   }
 
+
+   .contact {
+    padding-left: 0;
+    margin-top: 20px;
+  }
   .contact-text h2 {
-    font-size: 40px;
+    font-size: 30px;
   }
   .contact-text h4 {
-    font-size: 14px;
+    font-size: 12px;
   }
   .contact-text p {
+    font-size: 12px;
+  }
+  .contact-list i {
     font-size: 14px;
+  }
+  .contact-form form input,
+  .contact-form form textarea {
+    width: 100%;
+    padding: 12px;
   }
   .contact-form textarea {
     height: 150px;
   }
   .contact-form form .send {
-    padding: 8px 30px;
-    font-size: 12px;
+    padding: 10px 40px;
+    font-size: 14px;
   }
 }
+

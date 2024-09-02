@@ -36,7 +36,7 @@ A replica of the Google Gemini interface with basic functionalities implemented.
 A platform for users to buy and sell cars, featuring user authentication and payment integration.
 </p>
 
-### Personal Portfolio
+### Real Time Chat Application
 <p style="font-family: 'Courier New', Courier, monospace; color: #FF5722; font-size: 1em;">
-Showcasing my skills, projects, and professional experience with a clean and responsive design.
+A platform enabling users to engage in simultaneous multi-user chats.
 </p>
